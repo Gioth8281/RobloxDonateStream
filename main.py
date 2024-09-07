@@ -1,3 +1,4 @@
+# Inspired by Akrow
 # Import necessary libraries
 
 from bs4 import BeautifulSoup
