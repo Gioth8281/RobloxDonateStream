@@ -89,7 +89,6 @@ async def get_gamepass_info(gamepass_id, username, price_limit, user):
                                 gamepasses_dict[match.group(1)] = match.group(2)
                 else:
                     continue
-            print(gamepasses_dict)
             if len(gamepasses_dict.keys()) > 0 and not gamepass_id:
                 limited_prices = {key: value for key, value in gamepasses_dict.items() if value <= price_limit}
                 if limited_prices:
@@ -248,7 +247,7 @@ if __name__ == "__main__":
     user_created = "None"  # Example 2024-01-31 or None
     price_limit = "3"  # Example 10 or -1 for infinite
     timeout = 200  # Example 120 for 2 minutes
-    cookie = cookie  # Insert your cookie into secret.py or try running without the cookie
+    # cookie # Insert your cookie into secret.py or try running without the cookie
     winner_limit = 3  # How many wins can one get per stream
 
     #-  CONFIG ENDS HERE  -#
