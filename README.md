@@ -2,6 +2,7 @@
 ## Roblox Donate Stream
 Simpler python script for automatic robux giveaways on youtube stream. Gentleman.
 _Yes, it does use your robux so be careful._
+_Yes, I know the code could be improved (Maybe in the future)._
 
 ### Built with
 * 💻 PyCharm
